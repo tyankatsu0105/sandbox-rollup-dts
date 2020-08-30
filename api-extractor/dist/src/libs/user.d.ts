@@ -1,7 +1,7 @@
-interface IUser {
+export interface IUser {
     greet: (name: string) => void;
 }
-declare class User implements IUser {
+export declare class User implements IUser {
     private name;
     constructor(name: string);
     /**
@@ -9,7 +9,4 @@ declare class User implements IUser {
      */
     greet(): void;
 }
-
-declare const NAME = "tyankatsu";
-
-export { IUser, NAME, User };
+//# sourceMappingURL=user.d.ts.map

@@ -1,3 +1,15 @@
-const sum = (a, b) => a + b;
+class User {
+    constructor(name) {
+        this.name = name;
+    }
+    /**
+     * Print log that greeting message
+     */
+    greet() {
+        console.log(`Hello ${this.name}-san :)`);
+    }
+}
 
-export { sum };
+const NAME = 'tyankatsu';
+
+export { NAME, User };
