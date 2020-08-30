@@ -5,6 +5,8 @@ d.tsファイルの検証
 
 # Usage
 ```
+sh scripts/setup
+
 sh scripts/build
 ```
 
