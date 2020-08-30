@@ -16,6 +16,10 @@ declare class User implements IUser {
 
 declare const fn1: (a: string) => string;
 
+/**
+ * beta
+ * @beta
+ */
 declare const fn2: (a: string) => string;
 
 declare const fn3: (a: string) => string;

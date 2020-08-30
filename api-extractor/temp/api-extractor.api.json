@@ -270,7 +270,7 @@
         {
           "kind": "Variable",
           "canonicalReference": "api-extractor!fn2:var",
-          "docComment": "",
+          "docComment": "/**\n * beta\n *\n * @beta\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -281,7 +281,7 @@
               "text": "(a: string) => string"
             }
           ],
-          "releaseTag": "Public",
+          "releaseTag": "Beta",
           "name": "fn2",
           "variableTypeTokenRange": {
             "startIndex": 1,

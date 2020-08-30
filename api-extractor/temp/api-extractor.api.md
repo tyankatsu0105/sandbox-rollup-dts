@@ -40,7 +40,7 @@ export const fn18: (a: string) => string;
 // @public (undocumented)
 export const fn19: (a: string) => string;
 
-// @public (undocumented)
+// @beta
 export const fn2: (a: string) => string;
 
 // @public (undocumented)
