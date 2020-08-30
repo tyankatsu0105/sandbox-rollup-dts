@@ -1,0 +1,3 @@
+cd rollup-plugin-dts
+cp -aiv ../src src
+npm run build
