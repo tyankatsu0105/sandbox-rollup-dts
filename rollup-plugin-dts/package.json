@@ -5,13 +5,15 @@
   "author": "tyankatsu",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
-  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
   "scripts": {
-    "prebuild": "rimraf dist declaration",
+    "prebuild": "run-s clean:declaration-dist",
     "build": "run-s declaration-build rollup",
-    "postbuild": "rimraf declaration",
+    "postbuild": "run-s clean:declaration",
     "declaration-build": "tsc -p tsconfig.declaration.json",
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "clean:declaration-dist": "rimraf dist declaration",
+    "clean:declaration": "rimraf declaration"
   },
   "devDependencies": {
     "rollup": "^2.26.8",
@@ -23,3 +25,4 @@
     "rimraf": "^3.0.2"
   }
 }
+

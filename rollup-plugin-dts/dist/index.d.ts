@@ -1,6 +1,10 @@
 interface IUser {
     greet: (name: string) => void;
 }
+/**
+ * This is some example documentation.
+ * @public
+ */
 declare class User implements IUser {
     private name;
     constructor(name: string);

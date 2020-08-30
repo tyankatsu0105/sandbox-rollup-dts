@@ -1,5 +1,4 @@
 import typescript from "rollup-plugin-typescript2";
-import dts from "rollup-plugin-dts";
 
 const packageJson = require("./package.json");
 
@@ -20,17 +19,7 @@ const options = [
     plugins: [
       typescript(),
     ],
-  },
-  {
-    input: "./declaration/src/index.d.ts",
-    output: [
-      {
-        file: packageJson.typings,
-        format: "es",
-      },
-    ],
-    plugins: [dts()],
-  },
+  }
 ];
 
 export default options;

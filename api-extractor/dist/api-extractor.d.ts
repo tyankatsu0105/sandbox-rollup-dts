@@ -5,6 +5,10 @@ export declare interface IUser {
 
 export declare const NAME = "tyankatsu";
 
+/**
+ * This is some example documentation.
+ * @public
+ */
 export declare class User implements IUser {
     private name;
     constructor(name: string);

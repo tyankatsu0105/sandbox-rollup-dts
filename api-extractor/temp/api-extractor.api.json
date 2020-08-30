@@ -76,7 +76,7 @@
         {
           "kind": "Class",
           "canonicalReference": "api-extractor!User:class",
-          "docComment": "",
+          "docComment": "/**\n * This is some example documentation.\n *\n * @public\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
