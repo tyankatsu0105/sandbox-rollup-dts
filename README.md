@@ -10,5 +10,12 @@ sh scripts/setup
 sh scripts/build
 ```
 
+```bash
+.
+├── api-extractor # api-extractorを使ったd.tsの圧縮
+├── rollup # d.tsを圧縮してない
+└──  rollup-plugin-dts # rollup-plugin-dtsを使ったd.tsの圧縮
+```
+
 # LICENSE
 MIT
