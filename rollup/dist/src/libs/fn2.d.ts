@@ -1,0 +1,1 @@
+export declare const fn2: (a: string) => string;
