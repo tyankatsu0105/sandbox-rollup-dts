@@ -20,10 +20,6 @@ class User {
 
 const fn1 = (a) => a;
 
-/**
- * beta
- * @beta
- */
 const fn2 = (a) => a;
 
 const fn3 = (a) => a;

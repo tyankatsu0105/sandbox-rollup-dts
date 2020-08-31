@@ -23,10 +23,6 @@ export declare const fn18: (a: string) => string;
 
 export declare const fn19: (a: string) => string;
 
-/**
- * beta
- * @beta
- */
 export declare const fn2: (a: string) => string;
 
 export declare const fn20: (a: string) => string;
